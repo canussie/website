@@ -25,6 +25,7 @@ If your system meets all the prerequisites mentioned below, proceed with running
   ```
   $ sudo yum install -y https://www.rdoproject.org/repos/rdo-release.rpm
   $ sudo yum update -y
+  $ sudo subscription-manager repos --enable rhel-7-server-optional-rpms --enable rhel-7-server-extras-rpms
   $ sudo yum install -y openstack-packstack
   $ sudo packstack --allinone
   ```
